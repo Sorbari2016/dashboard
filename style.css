@@ -6,3 +6,31 @@
     padding: 0;
 }
 
+body, 
+html {
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 4fr; 
+    grid-template-rows: 1fr 5fr;
+    background-color: grey;
+    resize: both;
+    overflow: scroll;
+}
+
+.header, 
+.main_content  {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.sidebar {
+    background-color:#1e88e5;
+    grid-row: 1/span 2;
+}
+
+
+
