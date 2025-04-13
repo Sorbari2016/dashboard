@@ -43,6 +43,7 @@ html {
 }
 
 
+
 /* Rule for bold text */
 .bold-text {
     font-weight: bold;
@@ -52,7 +53,7 @@ html {
 #search_bar {
     display: flex;
     justify-content: start;
-    padding-left: 20px;
+    padding-left: 50px;
     align-items: center;
     gap: 5px;
 }
@@ -95,7 +96,7 @@ img[src*="notification"]{
 /* Rules for the left user info */
 #profile {
     gap: 10px; 
-    padding-left: 20px;
+    padding-left: 50px;
     align-items: center;
 }
 
