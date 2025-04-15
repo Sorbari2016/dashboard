@@ -150,8 +150,13 @@ button {
     display: grid;
     grid-template-rows:1fr 6fr 3fr; 
     row-gap: 40px; 
-    color: white;
     font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Display rule for the first section of the navs */
