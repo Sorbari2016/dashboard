@@ -202,3 +202,16 @@ img {
     font-size: 1.4em;
 }
 
+
+/* MAIN CONTENT AREA */
+
+.main_content{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.main_content_container {
+    height:80%;
+    width:95%;
+    background-color: white;
+}
