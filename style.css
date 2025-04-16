@@ -15,11 +15,11 @@ html {
 .container {
     display: grid;
     height: 100%;
-    grid-template-columns: 1fr 4fr; 
+    grid-template-columns: minmax(15%, 1fr) minmax(60%, 4fr); 
     grid-template-rows: 1fr 5fr;
     background-color: grey;
     resize: both;
-    overflow: scroll;
+    overflow:scroll;
 }
 
 /* header background color */
