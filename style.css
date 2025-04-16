@@ -259,8 +259,10 @@ img {
 
 .card {
     border-left: 5px solid goldenrod;
-    display: grid;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 
 }
 
@@ -271,5 +273,16 @@ img {
 
 .card-icons{
     display: flex;
+    gap: 20px;
+    align-self: flex-end;
+    padding-right: 10px;
 }
 
+.card-text {
+    width: 70%;
+}
+
+/* Card body text rule */
+.card-text > .body-text {
+    color: grey;
+}
