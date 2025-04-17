@@ -290,9 +290,15 @@ img {
 
 .placard {
     display: grid;
-    justify-items: center;
     align-items: center;
 }
+
+.placard1{
+    justify-items: center;
+
+}
+
+
 .anouncement {
     height: 85%;
     width: 85%;
@@ -308,8 +314,18 @@ img {
 }
 
 
-.placard1 {
+.placard1,
+.placard2 {
     font-size: 0.75em;
 }
 
- 
+.placard2 {
+    padding-left: 10px;
+    display: grid; 
+}
+
+.user {
+    display: flex;
+    gap: 7px;
+}
+
