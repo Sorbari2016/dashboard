@@ -329,3 +329,7 @@ img {
     gap: 7px;
 }
 
+.user-text > .body-text {
+    color: grey;
+}
+
