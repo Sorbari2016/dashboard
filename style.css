@@ -17,10 +17,10 @@ html {
     width: 100vw;
     height: 100vh;
     grid-template-columns: minmax(15%, 1fr) minmax(60%, 4fr); 
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 5fr; 
     background-color: grey;
-    resize: both;
-    overflow:scroll;
+    /* resize: both;
+    overflow:scroll; */
     box-sizing: border-box;
 }
 
@@ -275,14 +275,41 @@ img {
     display: flex;
     gap: 20px;
     align-self: flex-end;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .card-text {
     width: 70%;
 }
 
-/* Card body text rule */
-.card-text > .body-text {
+/* Card body & placard text rule */
+.card-text > .body-text,
+.notification > .body-text  {
     color: grey;
 }
+
+.placard {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.anouncement {
+    height: 85%;
+    width: 85%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5px;
+}
+
+.notification1, 
+.notification2 {
+    border-bottom: 1px solid lightgray; 
+    padding-bottom: 5px;
+}
+
+
+.placard1 {
+    font-size: 0.75em;
+}
+
+ 
