@@ -225,7 +225,7 @@ img {
 
 .main_content_container {
     display: grid;
-    grid-template-columns: 3.5fr 1fr;
+    grid-template-columns: 4fr 1fr;
     column-gap: 15px;
 }
 
@@ -333,3 +333,11 @@ img {
     color: grey;
 }
 
+
+.left-side {
+    height: 100%;
+}
+
+.section-title {
+    padding-bottom: 10px;
+}
