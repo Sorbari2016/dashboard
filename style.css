@@ -301,7 +301,7 @@ img {
 
 
 .anouncement {
-    height: 85%;
+    height: 95%;
     width: 85%;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -343,4 +343,14 @@ img {
 
 .section-title {
     margin-bottom: 10px;
+}
+
+
+.bottom-side {
+    display: flex ;
+    flex-direction: column;
+}
+
+.bottom-side > .placard.placard2{
+    flex: 1;
 }
