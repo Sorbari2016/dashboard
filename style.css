@@ -22,7 +22,7 @@ html {
     width: 100%; 
     height: auto; 
     grid-template-columns: minmax(15%, 250px) minmax(60%, 4fr); 
-    grid-template-rows: 150px 1fr; 
+    grid-template-rows: 100px 1fr;  
     background-color: grey;
     box-sizing: border-box;
 }
@@ -145,7 +145,7 @@ button {
 /* Rules for the container within the sidebar section that will house the elements here */
 .sidebar-container {
     display: grid;
-    grid-template-rows:1fr 4fr 2fr; 
+    grid-template-rows:1fr 5fr 2fr; 
     row-gap:30px; 
     font-size: 15px;
     min-height: 60%;
@@ -205,16 +205,17 @@ img {
 
 .main_content{
     display: grid;
-    align-items: center;
+    /* align-items: center; */
     justify-items: center;
     background-color: #EBEAFF;
     min-height: 600px;
+    padding-top: 30px; 
 }
 
 
 
 .main_content_container {
-    height:85%;
+    height: 85%;
     width:95%;
 }
 
