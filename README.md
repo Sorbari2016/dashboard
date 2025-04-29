@@ -14,7 +14,5 @@
 - HTML.
 - CSS.
 
-
-## Project Expectation Desgin
-
 ## Completed Work
+[Simple Dashboard](https://sorbari2016.github.io/dashboard/)
