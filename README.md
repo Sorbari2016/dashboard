@@ -14,7 +14,4 @@
 - HTML.
 - CSS.
 
-
-## Project Expectation Desgin
-
 ## Completed Work
