@@ -22,7 +22,7 @@ html {
     width: 100%; 
     height: auto; 
     grid-template-columns: minmax(15%, 250px) minmax(60%, 4fr); 
-    grid-template-rows: 100px 1fr;  
+    grid-template-rows: 1fr 5fr;   
     background-color: grey;
     box-sizing: border-box;
 }
